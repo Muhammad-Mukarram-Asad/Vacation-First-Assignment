@@ -1,0 +1,66 @@
+.container{
+	display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    background-color: #FCF1EB;
+}
+.Box1{
+	background-color: #A4CEC3;
+    height: 365px;
+    width: 250px;
+    display: flex;
+    align-items: flex-end;
+}
+img{
+	display:flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 47vh;
+    width: 60vh;
+}
+
+.Box2{
+    background-color:  white;
+    margin: 0;
+    padding: 5px 37px;
+    text-align: start;
+}
+
+#h2{
+	font-size: 30px;
+	color:black;
+}
+#h6{
+	color: #FEFCFD;
+	font-size: 20px;
+	margin: 0;
+}
+#p{
+	color: grey;
+    font-size: 18px;
+    margin: 4px;
+    text-align: center;
+}
+#p:hover{
+	color: black;
+	background-color: grey;
+	transition:all;
+}
+#h4{
+	color: black;
+	font-size: 12px;
+}
+#Button{
+	color: white;
+    background-color: lightgreen;
+    border-radius: 40px;
+    text-align: center;
+    padding: 0px 50px;
+
+}
+.H4Button{
+display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
